@@ -1,0 +1,44 @@
+# Python virtual environments
+.venv/
+yolo_env/
+venv/
+env/
+ENV/
+
+# Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch & YOLO Model Weights
+*.pt
+*.pth
+*.weights
+*.onnx
+# Keep already-tracked model
+!d4.pt
+
+# Intermediate capture & detection output folders
+captures/
+detection_results/
+processed_results/
+raw_images/
+labelled images/
+mission1/
+mission2/
+
+# Media & local test files
+bus.jpg
+object.png
+object2.png
+*.param
+
+# Logs
+*.log
+cone_gps_log.txt
+
+# OS / Editor artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
