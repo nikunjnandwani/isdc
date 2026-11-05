@@ -42,3 +42,18 @@ cone_gps_log.txt
 .idea/
 .DS_Store
 Thumbs.db
+
+# Remaining local scripts and configs
+augmentation.py
+autovid.py
+client.py
+coco.names
+cone.py
+conegpt.py
+extra.py
+gemini.py
+index.py
+object.py
+video_detection.py
+xyz.py
+yolov3.cfg
